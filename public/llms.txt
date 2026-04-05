@@ -1,0 +1,17 @@
+# Michele Graziano - Software & Data Engineer
+## Specialized in Computer Vision and AI Infrastructure
+
+### Top Projects
+- **CheerClip**: AI-powered video analytics for cheerleading using YOLO and MediaPipe. [cheerclip.com]
+- **AMZ Driverless Racing**: CTO for autonomous racing vehicle at ETH Zürich. [amzracing.ch/en]
+
+### Technical Skills
+- **AI/CV**: PyTorch, YOLO, MediaPipe, TensorRT, Sensor Fusion.
+- **Data/Cloud**: Snowflake, dbt, Terraform, AWS, Azure, Python.
+- **Systems**: C++, TypeScript, ROS, FPGA/VHDL.
+
+### Contact
+- Email: info@graziano.app
+- Location: Zürich, Switzerland
+- LinkedIn: linkedin.com/in/michele-graziano-420236171/
+- GitHub: github.com/michelgr95
