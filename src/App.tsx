@@ -5,13 +5,13 @@
 
 import { motion } from "motion/react";
 import { 
-  Zap, 
   Code2, 
   Github, 
   Linkedin, 
   Mail
 } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
+import SkillsMatrix from "./components/SkillsMatrix";
 import JsonLd from "./components/JsonLd";
 
 export default function App() {
@@ -27,6 +27,7 @@ export default function App() {
           </span>
           <div className="flex gap-6 text-sm font-medium text-slate-400">
             <a href="#projects" className="hover:text-white transition-colors">Projects</a>
+            <a href="#skills" className="hover:text-white transition-colors">Skills</a>
             <a href="https://github.com/michelgr95" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>
             <a href="https://www.linkedin.com/in/michele-graziano-420236171/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
           </div>
@@ -42,9 +43,6 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neon-cyan/10 border border-neon-cyan/20 text-neon-cyan text-xs font-mono mb-6">
-              <Zap size={12} /> AVAILABLE FOR AI & DATA PLATFORM PROJECTS
-            </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight leading-[1.1]">
               Architecting <span className="text-white">AI Systems</span> <br />
               & <span className="text-slate-500">Data Platforms.</span>
@@ -73,14 +71,14 @@ export default function App() {
         {/* Projects */}
         <section id="projects" className="mb-32">
           <div className="flex items-center gap-4 mb-12">
-            <h2 className="text-3xl font-bold">Featured Work</h2>
+            <h2 className="text-3xl font-bold text-white">Featured Work</h2>
             <div className="h-px flex-1 bg-slate-800"></div>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard 
               title="CheerClip"
               description="AI video analytics mobile app. Features an 'autocut' pipeline using fine-tuned YOLO and MediaPipe for high-velocity feature extraction in cheerleading."
-              tags={["React Native", "Python", "AWS Lambda", "YOLO", "Terraform"]}
+              tags={["React / React Native", "Python", "TensorFlow", "YOLO", "Terraform"]}
               link="https://cheerclip.com"
             />
             <ProjectCard 
@@ -91,6 +89,9 @@ export default function App() {
             />
           </div>
         </section>
+
+        {/* Skills Matrix */}
+        <SkillsMatrix />
 
         {/* Footer */}
         <footer className="pt-20 border-t border-slate-900 text-center">
