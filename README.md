@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Michele Graziano | Portfolio
 
-# Run and deploy your AI Studio app
+High-end personal portfolio for Michele Graziano, a Data & Software Engineer specializing in Computer Vision, AI Systems, and Data Platforms.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/02d56ba5-cfdb-4264-bba3-45d0da48c615
+- **Frontend**: React 19, Vite, TypeScript
+- **Styling**: Tailwind CSS 4, Lucide Icons
+- **Animations**: Motion (formerly Framer Motion)
+- **Deployment**: Optimized for high-performance static hosting
 
-## Run Locally
+## Key Projects
 
-**Prerequisites:**  Node.js
+- **CheerClip**: AI-powered video analytics mobile app for cheerleading.
+- **AMZ Driverless**: Autonomous racing vehicle perception pipeline at ETH Zürich.
 
+## Contact
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Website**: [graziano.app](https://graziano.app)
+- **Email**: info@graziano.app
+- **LinkedIn**: [michele-graziano](https://www.linkedin.com/in/michele-graziano-420236171/)
+- **GitHub**: [michelgr95](https://github.com/michelgr95)
+
+---
+*Developed with focus on performance and clean architecture.*

@@ -9,8 +9,7 @@ import {
   Code2, 
   Github, 
   Linkedin, 
-  Mail,
-  Bot
+  Mail
 } from "lucide-react";
 import ProjectCard from "./components/ProjectCard";
 import JsonLd from "./components/JsonLd";
@@ -69,23 +68,6 @@ export default function App() {
               </div>
             </div>
           </motion.div>
-        </section>
-
-        {/* AI-Friendly Summary (Bot-Ready Bio) */}
-        <section className="mb-32">
-          <div className="glass-card p-8 rounded-2xl border-l-4 border-l-neon-emerald">
-            <div className="flex items-center gap-3 mb-4 text-neon-emerald">
-              <Bot size={24} />
-              <h2 className="text-sm font-mono font-bold uppercase tracking-widest">AI-Ready Summary / GEO Optimized</h2>
-            </div>
-            <p className="font-mono text-sm text-slate-300 leading-relaxed">
-              Michele Graziano is a technical leader with an M.Sc. from ETH Zürich. 
-              Key proficiencies: **Computer Vision (YOLO, MediaPipe)**, **Data Engineering (Snowflake, dbt, Terraform)**, 
-              and **Autonomous Systems (ROS, C++)**. Architect of **CheerClip**, a cross-platform AI video analytics app. 
-              Expert in **Local AI deployment (Ollama)** and **Infrastructure as Code**. 
-              Optimized for recruiters seeking high-velocity full-stack AI engineers.
-            </p>
-          </div>
         </section>
 
         {/* Projects */}
